@@ -1,14 +1,11 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
-
-const App = () => {
+import React from "react";
+import Todo from "./pages/Todo";
+function App() {
   return (
-    <div>
-      <p>React here!</p>
+    <div className="App">
+      <Todo />
     </div>
   );
-};
+}
 
 export default App;
-
-ReactDOM.render(<App />, document.getElementById("app"));

@@ -1,0 +1,59 @@
+@import "../../../node_modules/antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap");
+
+body,
+html {
+  background: #ffffff;
+  height: 100%;
+  margin: 0;
+  font-family: "Comfortaa", cursive !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Comfortaa", cursive;
+  font-weight: 900 !important;
+}
+.todo-wrapper {
+  padding: 50px;
+}
+.todo-list-form-container {
+  width: 500px;
+}
+.todo-list-container {
+  min-height: 868px;
+}
+.todo-list-box {
+  margin-top: 20px;
+}
+.todo-content-card {
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.085);
+  -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.085);
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.085);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+}
+.clear-todo-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.general-fill-btn {
+  background: #09D3AC !important;
+  border-color:#09D3AC !important;
+  color: #ffffff !important;
+  height: 40px !important;
+  font-size: 18px !important;
+}
